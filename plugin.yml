@@ -1,0 +1,6 @@
+name: Test
+author: tokyojack
+version: 1.0
+main: package.way.to.javaplugin.Test
+
+#No command registering needed!
