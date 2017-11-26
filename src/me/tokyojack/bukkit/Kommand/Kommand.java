@@ -5,6 +5,14 @@ import java.util.List;
 
 import org.bukkit.command.defaults.BukkitCommand;
 
+/**
+* Kommand - https://github.com/tokyojack/Kommand
+*
+* @author  Tokyojack
+* Discord: tokyojack#7353
+* McM:     tokyojack
+*/
+
 public abstract class Kommand extends BukkitCommand {
 
 	private final static String DEFAULT_DESCRIPTION = "No description set";

@@ -1,5 +1,13 @@
 package me.tokyojack.mcmarket.acommand.SubKommand;
 
+/**
+* Kommand - https://github.com/tokyojack/Kommand
+*
+* @author  Tokyojack
+* Discord: tokyojack#7353
+* McM:     tokyojack
+*/
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -116,7 +124,7 @@ public abstract class SubKommand {
 	 * @param List<String>
 	 *            Sub command aliases
 	 */
-	public SubKommand(String description, ArrayList<String> alias) {
+	public SubKommand(String description, List<String> alias) {
 		this(description, DEFAULT_COMMAND_SENDER, alias);
 	}
 
@@ -129,7 +137,7 @@ public abstract class SubKommand {
 	 * @param List<String>
 	 *            Sub command aliases
 	 */
-	public SubKommand(CommandSenderType commandSenderType, ArrayList<String> alias) {
+	public SubKommand(CommandSenderType commandSenderType, List<String> alias) {
 		this(DEFAULT_DESCRIPTION, commandSenderType, alias);
 	}
 

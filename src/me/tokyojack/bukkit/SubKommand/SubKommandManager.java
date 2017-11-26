@@ -15,6 +15,14 @@ import org.bukkit.entity.Player;
 
 import me.tokyojack.mcmarket.acommand.Kommand.Kommand;
 
+/**
+* Kommand - https://github.com/tokyojack/Kommand
+*
+* @author  Tokyojack
+* Discord: tokyojack#7353
+* McM:     tokyojack
+*/
+
 public class SubKommandManager extends BukkitCommand {
 
 	private Kommand command;

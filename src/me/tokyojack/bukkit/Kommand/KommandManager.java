@@ -7,6 +7,14 @@ import java.util.List;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandMap;
 
+/**
+* Kommand - https://github.com/tokyojack/Kommand
+*
+* @author  Tokyojack
+* Discord: tokyojack#7353
+* McM:     tokyojack
+*/
+
 public class KommandManager {
 
 	private List<Kommand> commands = new ArrayList<Kommand>();
