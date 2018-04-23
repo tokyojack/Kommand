@@ -1,5 +1,5 @@
 <h2  align="center">Kommand</h2>
-<p  align="center">A extreamly easy way to manage your plugin's commands. Also, you don't need to register your commands within a plugin.yml!</p>
+<p  align="center">An extremely easy command (along with sub-command) API for Bukkit plugins. Auto-registers the command without needed to be put into the plugin.yml.</p>
 
 <br/>
 
